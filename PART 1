@@ -1,18 +1,12 @@
-#stored variables
-#ask user name
 Attempts = 3
-print()
 while True:
-  name = input("Press < Enter > to start the game: ")
-  if name == "":
-    while True:
-      print()
-      print()
-      print()
-      yes = input(f"Welcome to Kabunare game {name}, Would like to play a quiz about Math or New Zealand? ").lower()
-      break
+  Name = input("Welcome to Kabunare's math game. What is your name? ")
+  if not Name.isalpha():
+    print()
+    print()
+    print("Please write your real name")
   else:
     print()
     print()
-    print("Please read ")
-#games
+    print(f"Welcome {Name} to my Math game. ")
+    break
