@@ -1,0 +1,18 @@
+#stored variables
+#ask user name
+Attempts = 3
+print()
+while True:
+  name = input("Press < Enter > to start the game: ")
+  if name == "":
+    while True:
+      print()
+      print()
+      print()
+      yes = input(f"Welcome to Kabunare game {name}, Would like to play a quiz about Math or New Zealand? ").lower()
+      break
+  else:
+    print()
+    print()
+    print("Please read ")
+#games
